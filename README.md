@@ -49,7 +49,14 @@ Yelp-Camp is a full-stack web application that functions as a Yelp-style platfor
 - **Maps Integration:** Mapbox
 
 ---
+## Prerequisites
 
+Before running the application, ensure the following:
+- **MongoDB:** A running instance of MongoDB (local or cloud-based) is required to store application data.
+- **Node.js:** Installed on your system to run the backend server.
+- **Environment Variables:** Configure required environment variables as detailed below.
+
+---
 ## Installation and Setup
 
 1. Clone the repository:
@@ -80,7 +87,7 @@ Yelp-Camp is a full-stack web application that functions as a Yelp-style platfor
 
 5. Start the development server:
    ```bash
-   npm start
+   npm app.js
    ```
 
 6. Visit the application in your browser at `http://localhost:3000`.
